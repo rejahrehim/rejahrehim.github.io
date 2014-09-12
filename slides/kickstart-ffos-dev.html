@@ -90,17 +90,8 @@
                     <br>
                 </section>
                 <section>
-                    <h2>2. Organization</h2>
-                    <p>of <script type="text/javascript">printLogo();</script> Apps</p>
-                    <p>
-                        <br>
-                    </p>
+                    <h2>Organization</h2>
                     <p>To develop any application, we worry about two things...</p>
-                    <p>
-                        <br>
-                    </p>
-                    <p>(next slides)<br>
-                    </p>
                 </section>
                 <section>
                     <h2>User Interface</h2>
@@ -129,16 +120,6 @@
                     </ul>
                 </section>
                 <section>
-                    <h2>Philosophy</h2>
-                    <p>
-                        <br>
-                    </p>
-                    <img align="left" src="files/fxos/dragon_thinking_small.gif"> So, <script type="text/javascript">printLogo();</script> apps are basically <b>Web Apps</b>!<br>
-                    <br>And since HTML/CSS/JavaScripts are standards, these apps run not only in <script type="text/javascript">printLogo();</script> devices, but on any device that have a browser!!! (Yes, on your Android too*)<br>
-                    <br>
-                    Don't misunderstand <i>web apps </i>- they run offline, too!<br>* Some APIs don't work in all browsers.<br>
-                </section>
-                <section>
                     <h2>
                         <br>
                     </h2>
@@ -149,7 +130,7 @@
                     </h1>
                 </section>
                 <section>
-                    <h2>3. Tools</h2>
+                    <h2>Tools</h2>
                     <p>
                         <br>
                     </p>
@@ -218,6 +199,9 @@
                         <a href="https://developer.mozilla.org/en-US/Firefox_OS/Using_the_App_Manager">App Manager</a> comes built-in with Firefox 26.0+. App manager can be used to install <a href="https://ftp.mozilla.org/pub/mozilla.org/labs/fxos-simulator/">Firefox OS simulator</a> or to send apps to your device.
                     </p>
 
+                    <p>
+                        Tools > Web Developer > App Manager  / about:app-manager
+                    </p>
                 </section>
                 <section>
                     <h2>Simulator</h2>
@@ -230,21 +214,20 @@
                     <p>
                         <br>
                     </p>
-                    <p>It's time for a "Hello World" app, right now!</p>
+                    <p>It's time for a Sample app, right now!</p>
                     <p>
-                        <br>
+                       A Demo "Recipe" App
                     </p>
                     <p>
                         <br>
                     </p>
                 </section>
                 <section>
-                    <h4>Step 1: Create a directory named <b>hello</b> </h4>
+                    <h4>Step 1: Create a directory named <b>Recipe</b> </h4>
                     <br>
                     <br>Create a directory named <i>
-                        <b>hello</b>
+                        <b>Recipe</b>
                     </i> anywhere in your computer.<br>
-                    <br>This will be the base directory - we put all files of our app here.<br>
                 </section>
                 <section>
                     <h4>Step 2: Create file named <b>index.html</b> </h4>
@@ -254,28 +237,6 @@
                     <img src="files/fxos/2c75d5d89c74e2db347aefd69d8d9632.png">
                     <br>
                 </section>
-                <section>
-                    <h4>See it in your browser</h4>
-                    <br>Open the index.html file with your Firefox Browser. You can double-click or right-click then open with Firefox.<br>
-                </section>
-                <section>
-                    <img src="files/fxos/a89c15d727c672763e5b993af6a50cc3.png" height="495" width="558">
-                    <br>
-                    <br>
-                </section>
-                <section>But...doesn't look like a mobile app!<br>
-                    <br>Because, we've not taken care of screen size &amp; others.<br>
-                    <br>
-                    <h2>TIPS</h2>
-                    <br>To test mobile screens with various sizes, press <b>Control + Shift + M</b> in your Firefox!<br>
-                </section>
-                <section>
-                    <img src="files/fxos/14efccc9b6dee433ed82459d9d117ef2.png" height="368" width="346">
-                    <br>
-                    <br>Pressing <b>ctrl + shft + M</b> gives a mobile app look-&amp;-feel!<br>
-                </section>
-
-
                 <section>
                     <h4>Step 3: Create Manifest file</h4>
                     <br>
@@ -288,9 +249,9 @@
                     <br>We create <i>
                         <b>manifest.webapp</b>
                     </i> file (note the .webapp extention) in hello directory:<br>
-                    <img src="files/fxos/manifest.png">
-                    <br>
-                    <br>
+                    <img src="files/fxos/manifest.png"><br>
+                    <a href="https://developer.mozilla.org/en-US/docs/Apps/Manifest">More..</a>
+                    
                 </section>
                 <section>
                     <h4>Install app in the simulator!</h4>
@@ -315,13 +276,6 @@
                     <img src="files/fxos/3d2c6a116bb44d87e3b842efbae8c0da.png" height="391" width="235">
                     <br>
                 </section>
-
-                <section>We've added a Batman Icon Too!<br>
-                    <br>
-                    <img src="files/fxos/batman.png" height="389" width="">
-                    <br>
-                </section>
-
                 <section>
                     <h4>More Fun: Add some scripts</h4>
                     <br>
@@ -337,7 +291,7 @@
                 </section>
 
                 <section>
-                    <h4>Create a file named <b>hello.js</b>
+                    <h4>Create a file named <b>main.js</b>
                         <br>inside your project directory</h4>
                     <br>
 
@@ -368,6 +322,18 @@ button.addEventListener('click', function(){
                     <br>
                     You have created your first <script type="text/javascript">printLogo()</script> app!
                 </section>
+                  <section>But...doesn't look like a mobile app!<br>
+                    <br>Because, we've not taken care of screen size &amp; others.<br>
+                    <br>
+                    <h2>TIPS</h2>
+                    <br>To test mobile screens with various sizes, press <b>Control + Shift + M</b> in your Firefox!<br>
+                </section>
+                <section>
+                    <img src="files/fxos/14efccc9b6dee433ed82459d9d117ef2.png" height="368" width="346">
+                    <br>
+                    <br>Pressing <b>ctrl + shft + M</b> gives a mobile app look-&amp;-feel!<br>
+                </section>
+
                 <section>
                    <h1>Web API</h1>
                    <h1>&amp;</h1>
@@ -440,7 +406,6 @@ button.addEventListener('click', function(){
                     <h4>Stuff to be aware of..</h4>
                     <br>
                     <ul>
-                        <li>Don't use eval (That rules out a lots of libraries)</li>
                         <li>Perfomence
                             <ul>
                                 <li>Don't use template libraries (like mustache.js)</li>
@@ -453,6 +418,8 @@ button.addEventListener('click', function(){
                     <h4>Publishing your app</h4>
                     <br>
                     Once you've completed your app, you need to upload it in a server, and share the link.
+                    </br>
+                    <a href="https://marketplace.firefox.com/">MarketPlace</a>
                 </section>
 
                 <section>
