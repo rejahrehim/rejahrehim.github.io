@@ -2724,19 +2724,22 @@ table.progress-bar {
 }
 
 #main-panel table {
-    width: 800px !important;
+    width: 65vw !important;
 }
 .repeated-chunk table {
-    width:50% !important;
+    width:65vw !important;
 }
 .repeated-chunk table tbody tr {
-    width:800px !important;
+    width:65vw !important;
 }
 table tbody tr {
-    width:800px !important;
+    width:65vw !important;
 }
 table tbody tr td{
-    width:800px !important;
+    width:65vw !important;
+}
+.setting-main {
+    width: 65vw;
 }
 .yui-button button {
     text-decoration: none;
