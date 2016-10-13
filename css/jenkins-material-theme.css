@@ -2735,6 +2735,9 @@ table.progress-bar {
 table tbody tr {
     width:800px !important;
 }
+table tbody tr td{
+    width:800px !important;
+}
 .yui-button button {
     text-decoration: none;
     text-align: center;
