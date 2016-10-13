@@ -2723,15 +2723,21 @@ table.progress-bar {
 #main-panel>pre {
     font-family: Roboto Mono, monospace!important
 }
+#side-panel {
+width: 25vw !important;
 
+}
+#main-panel {
+width: 75vw !important;
+}
 #main-panel table {
-    width: 65vw !important;
+    width: 73vw !important;
 }
 .repeated-chunk table {
-    width:65vw !important;
+    width:73vw !important;
 }
 .repeated-chunk table tbody tr {
-    width:65vw !important;
+    width:73vw !important;
 }
 table tbody tr {
     width:65vw !important;
