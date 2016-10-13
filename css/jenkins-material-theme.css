@@ -2724,12 +2724,11 @@ table.progress-bar {
     font-family: Roboto Mono, monospace!important
 }
 #side-panel {
-width: 25vw !important;
-margin-left: 25vw !important;
-
+    width: 25vw !important;
 }
 #main-panel {
-width: 75vw !important;
+    width: 75vw !important;
+    margin-left: 25vw !important;
 }
 #main-panel table {
     width: 73vw !important;
