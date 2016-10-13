@@ -2725,6 +2725,7 @@ table.progress-bar {
 }
 #side-panel {
 width: 25vw !important;
+margin-left: 25vw !important;
 
 }
 #main-panel {
