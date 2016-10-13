@@ -2730,9 +2730,6 @@ table.progress-bar {
     width: 75vw !important;
     margin-left: 25vw !important;
 }
-#main-panel table {
-    width: 73vw !important;
-}
 
 .yui-button button {
     text-decoration: none;
