@@ -2468,6 +2468,7 @@
     filter: brightness(10000)
 }
 .CodeMirror {
+    max-width: 65vw;
     background-color: #263238!important;
     color: #e9eded!important;
     font-size: 14px;
