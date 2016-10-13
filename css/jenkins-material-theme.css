@@ -2723,7 +2723,7 @@ table.progress-bar {
     font-family: Roboto Mono, monospace!important
 }
 
-#main-panel>table {
+#main-panel table {
     width: 800px !important
 }
 .yui-button button {
