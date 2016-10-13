@@ -2729,6 +2729,9 @@ table.progress-bar {
 .repeated-chunk table {
     width:50% !important;
 }
+.repeated-chunk table tr {
+    width:800px !important;
+}
 .yui-button button {
     text-decoration: none;
     text-align: center;
