@@ -2724,7 +2724,10 @@ table.progress-bar {
 }
 
 #main-panel table {
-    width: 800px !important
+    width: 800px !important;
+}
+.repeated-chunk table {
+    width:50% !important;
 }
 .yui-button button {
     text-decoration: none;
